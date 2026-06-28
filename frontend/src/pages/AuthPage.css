@@ -1,0 +1,122 @@
+.auth-wrapper {
+  min-height: 100vh;
+  background: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.auth-card {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 40px 36px 32px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.auth-logo {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #1a202c;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.logo-accent { color: #2d9488; }
+
+.auth-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.auth-sub {
+  font-size: 13.5px;
+  color: #6b7280;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.auth-error {
+  background: #fff5f5;
+  border: 1px solid #fed7d7;
+  color: #c53030;
+  border-radius: 7px;
+  padding: 10px 14px;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.form-group {
+  margin-bottom: 14px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 9px 12px;
+  font-size: 13.5px;
+  color: #1a202c;
+  background: #fff;
+  outline: none;
+  font-family: inherit;
+  transition: border-color 0.15s;
+}
+
+.form-group input:focus {
+  border-color: #2d9488;
+  box-shadow: 0 0 0 2px rgba(45,148,136,0.12);
+}
+
+.form-group input::placeholder { color: #9ca3af; }
+
+.btn-auth {
+  width: 100%;
+  background: #1a7a6e;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 11px 0;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin-top: 8px;
+  transition: background 0.15s;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn-auth:hover:not(:disabled) { background: #155f55; }
+.btn-auth:disabled { opacity: 0.65; cursor: not-allowed; }
+
+.auth-switch {
+  text-align: center;
+  font-size: 13px;
+  color: #6b7280;
+  margin-top: 20px;
+}
+
+.auth-switch span {
+  color: #2d9488;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.auth-switch span:hover { color: #1a7a6e; }
